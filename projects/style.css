@@ -1,0 +1,80 @@
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+
+    background: url(https://fastly.picsum.photos/id/295/1600/900.jpg?hmac=XTkl2S6MVEiv13oR8CAg7K1N4sFvahbmV-xCIj57Ofk)
+}
+
+.container {
+    padding: 30px;
+    padding-bottom: 40px;
+    background-color: #fff;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.buttons {
+    display: flex;
+    gap: 40px;
+    margin: 40px 0;
+}
+
+button {
+    padding: 10px;
+    font-size: 50px;
+    cursor: pointer;
+    border-radius: 6px;
+    transition: opacity 0.5s ease-in-out;
+    border: none;
+
+}
+
+button:hover {
+    opacity: 0.7s;
+    transition: 0.5s;
+
+}
+
+#rock {
+    background: rgb(230, 15, 230)
+}
+
+#paper {
+    background: rgb(12, 228, 12);
+}
+
+#scissors {
+    background: rgb(24, 194, 236);
+    padding-right: 15px;
+    padding-left: 15px;
+
+}
+
+p {
+    font-weight: bold;
+}
+
+.score span {
+color: blue;
+
+}
+
+.score2 span {
+
+    color: red
+}
